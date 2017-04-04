@@ -41,7 +41,7 @@ cask 'disk-inventory-x'
 cask 'qlmarkdown'
 cask 'quicklook-csv'
 cask 'quicklook-json'
-mas 'BetterSnapTool', id: 417375580
+#mas 'BetterSnapTool', id: 417375580
 cask 'the-unarchiver'
 
 # Outils de backup et synchro
@@ -65,18 +65,18 @@ brew 'ruby'
 brew 'docker'
 cask 'osxfuse'
 
-brew 'ansible'
+#brew 'ansible'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 
 brew 'nvm'
 
-cask 'visual-studio-code'
+#cask 'visual-studio-code'
 cask 'font-fira-code'
 
 cask 'sequel-pro'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
+#cask 'virtualbox'
+#cask 'virtualbox-extension-pack'
 mas 'Xcode', id: 497799835
 
 
@@ -104,7 +104,7 @@ cask 'skype'
 brew 'pandoc'
 cask 'flux'
 cask 'poedit'
-cask 'transmission'
+cask 'sublime-text'
 
 # Divertissement
 
