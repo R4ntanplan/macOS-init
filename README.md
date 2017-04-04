@@ -21,6 +21,11 @@ Le script exploite [Homebrew](http://brew.sh "Homebrew — The missing package m
 *Testé avec macOS Sierra.*
 
 ## Comment l'utiliser ?
+Si c'est une installation toute fraiche : Xcode doit être installé et sa licence acceptée :
+
+```shell
+sudo xcodebuild -license
+```
 
 Voici comment utiliser les deux scripts :
 
