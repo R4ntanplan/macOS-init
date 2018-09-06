@@ -8,8 +8,7 @@ tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
-tap 'homebrew/homebrew-php'
-#? tap 'homebrew/core'
+tap 'homebrew/core'
 
 # Définir où placer les applications installées
 cask_args appdir: '/Applications'
@@ -34,67 +33,37 @@ brew 'autojump'
 brew 'thefuck'
 
 # Utilitaires
-cask 'ccleaner'
 cask 'imageoptim'
 cask 'coconutbattery'
 cask 'disk-inventory-x'
 cask 'qlmarkdown'
 cask 'quicklook-csv'
 cask 'quicklook-json'
-#mas 'BetterSnapTool', id: 417375580
 cask 'the-unarchiver'
 
 # Outils de backup et synchro
 brew 'mackup'
-cask 'carbon-copy-cloner'
 cask 'dropbox'
 cask 'google-drive'
 
 # Outils Web
 cask 'firefox'
 cask 'google-chrome'
-brew 'lynx'
 cask 'brave'
 
 # Outils de développement
 brew 'git'
 cask 'java6'
-brew 'pkg-config'
-brew 'ruby'
-
 brew 'docker'
 cask 'osxfuse'
-
-#brew 'ansible'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
-
-brew 'nvm'
-
-#cask 'visual-studio-code'
-cask 'font-fira-code'
-
-cask 'sequel-pro'
-#cask 'virtualbox'
-#cask 'virtualbox-extension-pack'
-mas 'Xcode', id: 497799835
-
-
-# Traitement d'image
-brew 'graphicsmagick'
-brew 'gsl'
-brew 'imagemagick@6'
-mas 'Boxy SVG', id: 611658502
-cask 'gimp'
-cask 'imageoptim'
 
 # Multimédia
 brew 'ffmpeg'
 cask 'handbrake'
-cask 'spotify'
+#cask 'spotify' ? a voir deezer 
 cask 'vlc'
-cask 'filebot'
-cask 'calibre'
 
 # Communication
 cask 'rambox'
