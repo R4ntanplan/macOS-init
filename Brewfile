@@ -55,6 +55,7 @@ cask 'brave'
 brew 'git'
 cask 'java6'
 brew 'docker'
+brew 'docker-compose'
 cask 'osxfuse'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
@@ -66,7 +67,6 @@ cask 'handbrake'
 cask 'vlc'
 
 # Communication
-cask 'rambox'
 cask 'skype'
 
 # Bureautique
@@ -78,4 +78,4 @@ cask 'sublime-text'
 # Divertissement
 
 # Securite
-brew 'gpg2'
+#brew 'gpg2'
