@@ -43,11 +43,11 @@ cask 'the-unarchiver'
 # Outils de backup et synchro
 brew 'mackup'
 cask 'dropbox'
-cask 'google-drive'
+cask 'google-backup-and-sync'
 
 # Outils Web
 cask 'firefox'
-cask 'google-backup-and-sync'
+cask 'google-chrome'
 cask 'brave'
 
 # Outils de développement
