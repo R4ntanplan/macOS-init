@@ -3,7 +3,6 @@
 
 # Taps
 
-tap 'homebrew/dupes'
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
@@ -48,7 +47,7 @@ cask 'google-drive'
 
 # Outils Web
 cask 'firefox'
-cask 'google-chrome'
+cask 'google-backup-and-sync'
 cask 'brave'
 
 # Outils de développement
