@@ -30,6 +30,8 @@ cask 'postman'
 cask 'iterm2'
 brew 'autojump'
 brew 'thefuck'
+brew 'zsh'
+brew 'httpie'
 
 # Utilitaires
 cask 'imageoptim'
